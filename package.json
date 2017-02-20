@@ -8,10 +8,16 @@
     "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
     "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
     "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
-  }, "keywords": ["Filip", "SCSS", "Boilerplate"],
+  },
+  "keywords": [
+    "Filip",
+    "SCSS",
+    "Boilerplate"
+  ],
   "author": "Filip Vanden Eynde",
   "license": "ISC",
   "devDependencies": {
+    "bower": "^1.8.0",
     "laravel-mix": "^0.8.1"
   }
 }

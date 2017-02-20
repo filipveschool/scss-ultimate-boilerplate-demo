@@ -4,6 +4,7 @@
 .idea/*
 node_modules/*
 *.css
+bower_components/*
 
 # =========================
 # Operating System Files

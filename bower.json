@@ -1,0 +1,26 @@
+{
+  "name": "scss-filip-ultimate-starting-point",
+  "description": "SCSS boilerplate with common functions, mixins, helpers and patterns",
+  "main": "index.js",
+  "authors": [
+    "Filip Vanden Eynde"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Filip",
+    "SCSS",
+    "Boilerplate"
+  ],
+  "homepage": "https://github.com/filipveschool/scss-ultimate-boilerplate-demo",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "brand-colors": "^1.2.1"
+  }
+}
