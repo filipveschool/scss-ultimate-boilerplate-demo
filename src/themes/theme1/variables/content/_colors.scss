@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+//--------------------------------------------------------------
+//   COLORS
+//    - Primary palette
+//    - Grayscale
+//    - Social Media Colors
+//       - $social-colors() map
+//
+//   ELEMENTS & SKINNING
+//     - General
+//     - Accessibility
+//     - Links
+//-------------------------------------------------------------
+
+// COLORS
+
+// Primary palette
+$color-blue: #21759B;
+$color-light-yellow: #FFF9C0;
+$color-black: #000000;
+$color-white: #FFFFFF;
+
+//
+// Grayscale.
+//
+
+$black:          #000 !default;
+$grayDarker:     #222 !default;
+$grayDark:       #333 !default;
+$gray:           #555 !default;
+$grayLight:      #999 !default;
+$grayLighter:    #eee !default;
+$white:          #fff !default;
+$whiteSmoke:     #f1f1f1 !default;
+
+
+
+// Grayscale
+$color-gray:      #808080;
+$color-cod-gray:  #111111;
+$color-mineshaft: #333333;
+$color-dove-gray: #666666;
+$color-gray-alt:  #929292;
+$color-silver-chalice: #AAAAAA;
+$color-silver: #CCCCCC;
+$color-alto: #DDDDDD;
+$color-gallery: $grayLighter;
+$color-whitesmoke: $whiteSmoke;
+
+//
+// General Accent Colors.
+//
+
+$blue:        #049cdb !default;
+$blueDark:    #0064cd !default;
+$green:       #46a546 !default;
+$red:         #9d261d !default;
+$yellow:      #ffc40d !default;
+$orange:      #f89406 !default;
+$pink:        #c3325f !default;
+$purple:      #7a43b6 !default;
+
+// Social Media Colors
+$color-facebook: #3B5998;
+$color-googleplus: #DD4B39;
+$color-instagram: #517FA4;
+$color-linkedin: #007BB6;
+$color-pinterest: #CB2027;
+$color-rss: #FF9900;
+$color-twitter: #00ACED;
+$color-twitter: #00Abf0;
+//$color-youtube: #BB0000;
+$color-yelp:#af0606;
+$color-youtube: #cd201f;
+
+// $social-colors() map
+$social-colors: (
+        facebook: $color-facebook,
+        facebook-square: $color-facebook,
+        googleplus: $color-googleplus,
+        googleplus-square: $color-googleplus,
+        instagram: $color-instagram,
+        instagram-square: $color-instagram,
+        linkedin: $color-linkedin,
+        linkedin-square: $color-linkedin,
+        pinterest: $color-pinterest,
+        pinterest-square: $color-pinterest,
+        rss: $color-rss,
+        rss-square: $color-rss,
+        twitter: $color-twitter,
+        twitter-square: $color-twitter,
+        youtube: $color-youtube,
+        youtube-square: $color-youtube,
+);
+
+// ELEMENTS & SKINNING
+
+
+
+// Accessibility
+$color-background-screen-reader: $color-whitesmoke;
+$color-text-screen-reader: $color-blue;

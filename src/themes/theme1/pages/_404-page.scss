@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+// 404 Page
+// =============================================================================
+
+.error404 {
+  .entry-404 {
+    margin: 6.5% 0 8.5%;
+
+    p {
+      max-width: 750px;
+      margin: 0 auto 1.313em;
+      font-size: 1.5em;
+      @include break(middle-bear) {
+        font-size: 1.25em;
+      }
+      @include break(baby-bear) {
+        font-size: 1em;
+      }
+    }
+
+    .form-search {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  }
+}

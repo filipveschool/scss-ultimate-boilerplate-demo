@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+//--------------------------------------------------------------
+// Media Query Breakpoints
+//--------------------------------------------------------------
+
+/// Standard Media Query Breakpoints
+/// @group wds
+
+$large-desktop: rem(1680);
+$desktop: rem(1366);
+$tablet-landscape: rem(1024);
+$wp-admin-bar: rem(783);
+$tablet-portrait: rem(768);
+$phone-landscape: rem(640);
+$phone-portrait: rem(360);
+
+// Responsive Breakpoints
+// =============================================================================
+
+$breakSmall:          480px  !default;
+$breakMedium:         767px  !default;
+$breakMediumLarge:    979px  !default; // (+1 = default desktop)
+$breakLarge:          1200px !default;

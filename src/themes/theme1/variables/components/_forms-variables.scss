@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+//--------------------------------------------------------------
+// Global Form Variables
+//--------------------------------------------------------------
+
+// Buttons
+$color-button-background: $color-dove-gray;
+$color-button-background-hover: $color-mineshaft;
+$color-button-text: $color-white;
+
+// Inputs
+$color-input-border: $color-silver;
+$color-input-focus-text: $color-cod-gray;
+$color-input-text: $color-dove-gray;
+
+$padding-input: rem(6);
+
+
+// Forms and Alerts Theme X Renew
+// =============================================================================
+
+//
+// Base form styling.
+//
+
+$formBaseFontWeight:       300     !default;
+$formActionsBackground:    #f5f5f5 !default;
+
+
+//
+// Inputs.
+//
+
+$inputBackground:            $baseModBackground  !default;
+$inputBorder:                #ddd                !default;
+$inputBorderFocus:           rgba(0, 0, 0, 0.25) !default;
+$inputDisabledBackground:    $grayLighter        !default;
+
+
+//
+// Box shadows.
+//
+
+$inputBoxShadow:         inset 0 1px 2px rgba(0, 0, 0, 0.125) !default;
+$inputBoxShadowFocus:    inset 0 1px 2px rgba(0, 0, 0, 0.125) !default;
+
+
+//
+// Fine-tune element alignment.
+//
+
+$controlGroupMarginTop:               0    !default;
+$controlGroupMarginTopAfterLegend:    20px !default;
+$controlGroupMarginBottom:            24px !default;
+$controlLabelPaddingTop:              4px  !default;
+$labelMarginBottom:                   2px  !default;
+$legendMargin:                        0    !default;
+$fileMarginTop:                       2px  !default;
+$checkboxTopPosition:                 2px  !default;
+$radioTopPosition:                    1px  !default;

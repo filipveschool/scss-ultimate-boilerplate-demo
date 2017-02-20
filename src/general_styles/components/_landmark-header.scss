@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+// Landmark Header van Theme X Renew
+// =============================================================================
+
+.x-header-landmark {
+  padding: 30px 0;
+  border: 1px solid darken($baseModBackground, 5%);
+  border-left: 0;
+  border-right: 0;
+}
+
+.x-landmark-breadcrumbs-wrap {
+  display: table;
+  width: 100%;
+
+  .x-landmark,
+  .x-breadcrumbs-wrap {
+    @include break(middle-bear) {
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
+.x-landmark,
+.x-breadcrumbs-wrap {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.x-landmark {
+  width: 63.02463%;
+  padding-right: 9.92611%;
+  @include break(middle-bear) {
+    padding: 0;
+  }
+}
+
+.x-breadcrumbs-wrap {
+  width: 27.04926%;
+  text-align: right;
+  @include break(middle-bear) {
+    margin-top: $baseMargin / 2;
+  }
+}
+
+.h-landmark,
+.entry-title.h-landmark {
+  margin: 0;
+  font-size: 245%;
+  letter-spacing: -0.075em;
+  line-height: 1;
+
+  span {
+    display: inline-block;
+    position: relative;
+  }
+}

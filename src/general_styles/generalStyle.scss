@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+//Libraries
+
+@import "../bower_components/brand-colors/dist/latest/scss/brand-colors.latest";
+
+// Variables
+
+@import "../variables/_global-general-variables";
+
+// Shared utilities
+
+@import "../shared_utilities/_shared_utilities";
+
+// override global variables
+
+@import "../themes/theme1/_import-variables";
+
+// Here starts the actual coding to css styles for exporting to stylesheet.
+
+@import "../shared_utilities/norm/_universal-border-box";
+@import "../shared_utilities/norm/_normalize";
+
+@import "base";
+@import "media";
+@import "structure";
+@import "plugins";
+@import "components";

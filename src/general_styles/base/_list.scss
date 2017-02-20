@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+// Lists
+// =============================================================================
+
+//
+// Unordered and ordered lists.
+//
+
+ul,
+ol {
+  padding: 0;
+  margin: 0 0 $baseMargin 1.655em;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li {
+  line-height: $baseLineHeight;
+}
+
+ul.unstyled,
+ol.unstyled {
+  margin-left: 0;
+  list-style: none;
+}
+
+ul.inline,
+ol.inline {
+  margin-left: 0;
+  list-style: none;
+
+  & > li {
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+//
+// Description lists.
+//
+
+dl {
+  margin-bottom: $baseMargin;
+}
+
+dt,
+dd {
+  line-height: $baseLineHeight;
+}
+
+dt {
+  font-weight: 700;
+}
+
+dd {
+  margin-left: $baseMargin;
+}
+

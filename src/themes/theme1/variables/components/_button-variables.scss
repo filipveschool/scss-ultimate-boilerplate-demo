@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+// Buttons
+// =============================================================================
+
+$btnBackground:    #ff2a13                     !default;
+$btnBorder:        darken($btnBackground, 20%) !default;
+
+// Buttons Renew
+// =============================================================================
+
+//
+// Base button styling.
+//
+
+$btnRenewColor:              $white          !default;
+$btnRenewBorder:             $accentColor    !default;
+$btnRenewBackground:         $accentColor    !default;
+$btnRenewColorHover:         $white          !default;
+$btnRenewBorderHover:        $linkColorHover !default;
+$btnRenewBackgroundHover:    $linkColorHover !default;
+
+
+//
+// Box shadows.
+//
+
+$btnRenewBoxShadow:    0 0 0 rgba(0, 0, 0, 0), inset 0 0 0 rgba(0, 0, 0, 0) !default;

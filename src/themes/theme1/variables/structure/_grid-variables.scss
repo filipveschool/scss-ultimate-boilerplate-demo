@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+// Grid
+// =============================================================================
+
+//
+// Grid columns.
+//
+
+$gridColumns: 12 !default;
+
+//
+// Fixed.
+//
+
+$gridColumnWidth: 20px !default;
+$gridGutterWidth: 52px !default;
+$gridRowWidth: ($gridColumns * $gridColumnWidth) + ($gridGutterWidth * ($gridColumns - 1)) !default;
+
+//
+// Fluid.
+//
+
+$fluidGridColumnWidth: percentage($gridColumnWidth/$gridRowWidth) !default;
+$fluidGridGutterWidth: percentage($gridGutterWidth/$gridRowWidth) !default;

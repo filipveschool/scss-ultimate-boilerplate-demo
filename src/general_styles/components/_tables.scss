@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+//--------------------------------------------------------------
+// Tables
+//--------------------------------------------------------------
+
+table {
+  //border: 0;
+
+  // Van Theme X Renew
+  border-collapse: collapse;
+
+  //padding: 0;
+  width: 100%;
+  margin-bottom: $baseMargin;
+  border-spacing: 0;
+  background-color: $tableBackground;
+
+  // thead
+  thead {
+    display: none;
+
+    & th {
+      vertical-align: bottom;
+    }
+
+    /*@include media($phone-landscape) {
+      display: table-row-group;
+    }*/
+  }
+  // thead
+
+  tbody + tbody {
+    border-top: $table_tbody_border_size $table_tbody_border_style $tableBorder;
+  }
+
+  // th, td
+  th,
+  td {
+    //text-align: center;
+
+    // Van Theme X Renew
+    border-top: $table_th_td_border_size $table_th_td_border_style $tableBorder;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 1.3;
+    @include padding(0.5em 0.625em);
+    //    padding: 0.5em 0.625em;
+
+    /*@include media($phone-landscape) {
+      display: table-cell;
+    }*/
+  }
+  // th, td
+
+  // th
+  th {
+    //font-size: rem(14);
+    //letter-spacing: rem(1);
+    //text-transform: uppercase;
+
+    font-weight: bold;
+    /*@include media($phone-landscape) {
+    display: table-cell;
+    }*/
+  }
+  // th
+
+  // tr
+  tr {
+    display: block;
+    margin-bottom: rem(10);
+    /*@include media($phone-landscape) {
+      display: table-row;
+      margin-bottom: 0;
+    }*/
+  }
+  // tr
+
+  // td
+  td {
+    //border: rem(1) solid $color-silver;
+    //border-bottom: 0;
+    //display: block;
+    //font-size: rem(13);
+    //text-align: center;
+    line-height: $table_td_line_height;
+    /*@include media($phone-landscape) {
+      border-bottom: 0;
+    }*/
+
+    // last-child
+    &:last-child {
+      //border-bottom: rem(1) solid $color-silver;
+    }
+    // &:last-child
+
+    // before
+    &::before {
+      //content: "";
+      //float: left;
+      //font-weight: bold;
+      //text-transform: uppercase;
+    }
+    // &::before
+  }
+  // td
+
+  /*@include media($phone-landscape) {
+    border: rem(1) solid $color-silver;
+  }*/
+
+  caption + thead tr:first-child th,
+  caption + thead tr:first-child td,
+  colgroup + thead tr:first-child th,
+  colgroup + thead tr:first-child td,
+  thead:first-child tr:first-child th,
+  thead:first-child tr:first-child td {
+    border-top: 0;
+  }
+
+  p:last-child,
+  ul:last-child,
+  ol:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// table

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+// Appearance Theme X Renew
+// =============================================================================
+
+$skin:                    'light' !default;
+
+$baseBoxShadow:           0 0.15em 0.35em 0 rgba(0, 0, 0, 0.135) !default;
+$widgetbarBoxShadow:      0 0.15em 0.35em 0 rgba(0, 0, 0, 0.135) !default;
+
+$baseModBackground:       $white                         !default;
+$accentColor:             #2c3e50                        !default;
+$widgetBorderColor:       darken($baseModBackground, 5%) !default;
+$widgetbarBackground:     $white                         !default;
+$widgetbarColor:          #727272                        !default;
+$shortcodeBorderColor:    #e5e5e5                        !default;
+

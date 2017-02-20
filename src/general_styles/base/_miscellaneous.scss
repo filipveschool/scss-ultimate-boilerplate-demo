@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+// Miscellaneous
+// =============================================================================
+
+//
+// Horizontal rules.
+//
+
+hr {
+  height: 0;
+  margin: $baseMargin 0;
+  border: 0;
+  border-top: 2px solid $shortcodeBorderColor;
+}
+
+//
+// Abbreviations and acronyms.
+//
+
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted $grayLight;
+}
+
+abbr.initialism {
+  font-size: .9em;
+  text-transform: uppercase;
+}
+
