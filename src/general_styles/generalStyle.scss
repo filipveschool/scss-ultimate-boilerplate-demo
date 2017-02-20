@@ -12,10 +12,6 @@
 
 @import "../shared_utilities/_shared_utilities";
 
-// override global variables
-
-@import "../themes/theme1/_import-variables";
-
 // Here starts the actual coding to css styles for exporting to stylesheet.
 
 @import "../shared_utilities/norm/_universal-border-box";
